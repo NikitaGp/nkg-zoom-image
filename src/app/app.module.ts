@@ -2,10 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ZoomImageComponent } from './zoom-image/zoom-image.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ZoomImageComponent
   ],
   imports: [
     BrowserModule

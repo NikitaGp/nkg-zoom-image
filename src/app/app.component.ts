@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nkg-zoom-image';
+  showZoomBox = false;
+  openZoomBox() {
+    this.showZoomBox = true;
+  }
+
+  hideZoomBox(event: boolean) {
+    this.showZoomBox = event;
+  }
 }
